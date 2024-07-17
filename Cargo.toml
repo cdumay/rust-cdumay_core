@@ -1,0 +1,23 @@
+[package]
+name = "cdumay_core"
+version = "0.0.1"
+
+authors = ["Cédric Dumay <cedric.dumay@gmail.com>"]
+categories = ["caching", "data-structures", "encoding"]
+description = "Bundle of utils"
+documentation = "https://docs.rs/cdumay_core"
+edition = "2021"
+homepage = "https://github.com/cdumay/rust-cdumay_core"
+keywords = ["utils", "serde"]
+license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/cdumay/rust-cdumay_core"
+
+[badges]
+gitlab = { repository = "cdumay/rust-cdumay_core" }
+travis-ci = { repository = "cdumay/rust-cdumay_core" }
+maintenance = { status = "as-is" }
+
+[dependencies]
+serde_json = "1.0.120"
+uuid = { version = "1.10.0", features = ["v4", "serde"] }
